@@ -3,3 +3,27 @@
     background-color: #faebd7;
   }
 }
+
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.jumbotron {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.parallax-top {
+  height: 50vh;
+  background-image: url('./src/img/lovarda_oldal.webp');
+  background-color: hotpink;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn.btn-brown {
+  color: burlywood;
+}

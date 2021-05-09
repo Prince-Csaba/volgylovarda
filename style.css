@@ -26,4 +26,13 @@
 .btn.btn-brown {
   color: burlywood;
 }
+
+img.aboutUs {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */

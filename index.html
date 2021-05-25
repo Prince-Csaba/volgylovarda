@@ -23,17 +23,24 @@
         aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Kezdőlap</a></li>
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Action</a><a
-                class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <li class="nav-item px-5"><a class="nav-link active" aria-current="page" href="#">Kezdőlap</a></li>
+          <li class="nav-item dropdown px-5">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Lovasoktatás
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Lovasoktatás</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Bértartás</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Lószállítás</a></li>
+          <li class="nav-item px-5"><a class="nav-link" href="#">Versenyeztetés</a></li>
+          <li class="nav-item px-5"><a class="nav-link" href="#">Bértartás</a></li>
+          <li class="nav-item px-5"><a class="nav-link" href="./loszallitas.html">Lószállítás</a></li>
         </ul>
       </div>
     </div>
@@ -96,39 +103,52 @@
     <section class="mt-4">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 my-1">
+          <div class="col-lg-3 col-md-6 my-1">
             <div class="media d-flex ">
               <div class="flex-shrink-0">
                 <i class="fas fa-horse fa-fw"></i>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5>Cím ami ide jön</h5>
+                <h5>Lovasoktatás</h5>
                 <p>This is some content from a media component. You can replace this with any content and adjust it as
                   needed.</p>
                 <button class="btn btn-primary">Bővebben</button>
               </div>
             </div>
           </div>
-          <div class="col-md-4 my-1">
+          <div class="col-lg-3 col-md-6 my-1">
             <div class="media d-flex">
               <div class="flex-shrink-0">
-                <i class="fas fa-horse fa-fw"></i>
+                <i class="fas fa-igloo"></i>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5>Cím ami ide jön</h5>
+                <h5>Bértartás</h5>
                 <p>This is some content from a media component. You can replace this with any content and adjust it as
                   needed.</p>
                 <button class="btn btn-primary">Bővebben</button>
               </div>
             </div>
           </div>
-          <div class="col-md-4 my-1">
+          <div class="col-lg-3 col-md-6 my-1">
             <div class="media d-flex">
               <div class="flex-shrink-0">
-                <i class="fas fa-horse fa-fw"></i>
+                <i class="fas fa-medal fa-fw"></i>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5>Cím ami ide jön</h5>
+                <h5>Versenyeztetés</h5>
+                <p>This is some content from a media component. You can replace this with any content and adjust it as
+                  needed.</p>
+                <button class="btn btn-primary">Bővebben</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 my-1">
+            <div class="media d-flex">
+              <div class="flex-shrink-0">
+                <i class="fas fa-trailer"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <h5>Lószállítás</h5>
                 <p>This is some content from a media component. You can replace this with any content and adjust it as
                   needed.</p>
                 <button class="btn btn-primary">Bővebben</button>

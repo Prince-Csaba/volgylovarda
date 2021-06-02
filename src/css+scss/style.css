@@ -1,12 +1,15 @@
-.navbar-nav .nav-item .nav-link {
-  &:hover {
-    background-color: #faebd7;
-  }
+body {
+  color: #d0a046;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: #faebd7;
 }
 
 .carousel-item img {
   height: 80vh;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .jumbotron {
@@ -16,7 +19,7 @@
 
 .parallax-top {
   height: 50vh;
-  background-image: url('./src/img/lovarda_oldal.webp');
+  background-image: url("../img/lovarda_oldal.webp");
   background-color: hotpink;
   background-attachment: fixed;
   background-position: center;
@@ -33,6 +36,7 @@ img.aboutUs {
   max-width: 500px;
   height: auto;
   border-radius: 50%;
-  object-fit: cover;
-
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+/*# sourceMappingURL=style.css.map */

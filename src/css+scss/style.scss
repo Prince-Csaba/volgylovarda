@@ -4,6 +4,10 @@ body {
   color: $primary;
 }
 
+.gold {
+  color: $gold !important;
+}
+
 .navbar-nav .nav-item .nav-link {
   &:hover {
     background-color: #faebd7;

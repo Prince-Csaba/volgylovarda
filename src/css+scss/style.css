@@ -1,3 +1,4 @@
+/* $gold: #d0a046; */
 /* $primary:#d0a046; */
 body {
   color: black;
@@ -16,6 +17,10 @@ body {
 .jumbotron {
   background-color: grey;
   border-radius: 5px;
+}
+
+.flex-shrink-0 i.fas {
+  color: #8a6c35;
 }
 
 .parallax-top {
@@ -53,7 +58,7 @@ img.aboutUs {
 }
 
 .footer .footer-site-logo a {
-  color: #4200ff;
+  color: #8a6c35;
   text-decoration: none;
 }
 

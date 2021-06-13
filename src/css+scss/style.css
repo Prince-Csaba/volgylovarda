@@ -2,6 +2,7 @@
 /* $primary:#d0a046; */
 body {
   color: black;
+  font-family: "Muli", sans-serif;
 }
 
 .gold {
@@ -48,6 +49,12 @@ img.aboutUs {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+img.card-img-top.img_team {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
 }
 
 .footer {

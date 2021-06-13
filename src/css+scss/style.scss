@@ -1,7 +1,10 @@
 @import 'colors';
+@import 'fonts';
+
 
 body {
   color: $primary;
+  font-family: $mainfont;
 }
 
 .gold {
@@ -48,16 +51,20 @@ img.aboutUs {
   height: auto;
   border-radius: 50%;
   object-fit: cover;
-
 }
 
+img.card-img-top.img_team {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+// footer 9 - template
 $font-family-sans-serif-2: 'Poppins',
 sans-serif;
 $font-family-serif: 'Source Serif Pro',
 serif;
 $black: black;
 
-// footer 9 - template
 .footer {
   padding: 5rem 0;
   font-family: $font-family-sans-serif-2;

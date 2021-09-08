@@ -10,6 +10,12 @@
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
   <!-- Font awesome CDN -->
   <script src="https://kit.fontawesome.com/766f2d985c.js" crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,400;0,500;1,300&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./src/css+scss/style.css">
   <title>Völgylovarda</title>
@@ -24,14 +30,14 @@
         aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item ps-lg-1"><a class="nav-link active" aria-current="page" href="#">Kezdőlap</a></li>
+          <!--           <li class="nav-item ps-lg-1"><a class="nav-link active" aria-current="page" href="#">Kezdőlap</a></li> -->
           <li class="nav-item dropdown px-lg-1">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle fs-5" href="#" id="mainDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Lovasoktatás
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Lovasoktatás</a></li>
+              <li><a class="dropdown-item " href="#">Lovasoktatás</a></li>
               <li><a class="dropdown-item" href="./szolgaltatasok.html">Szolgáltatások</a></li>
               <li>
                 <hr class="dropdown-divider">
@@ -39,12 +45,23 @@
               <li><a class="dropdown-item" href="./arlista.html">Árlista</a></li>
             </ul>
           </li>
-          <li class="nav-item px-lg-1"><a class="nav-link" href="./versenyeztetes.html">Versenyeztetés</a></li>
-          <li class="nav-item px-lg-1"><a class="nav-link" href="./bertartas.html">Bértartás</a></li>
-          <li class="nav-item pe-lg-1"><a class="nav-link" href="./loszallitas.html">Lószállítás</a></li>
-          <li class="nav-item px-lg-1"><a class="nav-link" href="./galeria.html">Galéria</a></li>
-          <li class="nav-item px-lg-1"><a class="nav-link" href="./rolunk.html">Rólunk</a></li>
-          <li class="nav-item pe-lg-1"><a class="nav-link" href="./kapcsolat.html">Kapcsolat</a></li>
+          <li class="nav-item px-lg-1"><a class="nav-link fs-5" href="./versenyeztetes.html">Versenyeztetés</a>
+          </li>
+          <li class="nav-item px-lg-1"><a class="nav-link fs-5" href="./bertartas.html">Bértartás</a></li>
+          <li class="nav-item pe-lg-1"><a class="nav-link fs-5" href="./loszallitas.html">Lószállítás</a></li>
+          <li class="nav-item px-lg-1"><a class="nav-link fs-5" href="./galeria.html">Galéria</a></li>
+          <!-- <li class="nav-item px-lg-1"><a class="nav-link" href="./rolunk.html">Rólunk</a></li>
+          <li class="nav-item pe-lg-1"><a class="nav-link" href="./kapcsolat.html">Kapcsolat</a></li> -->
+          <li class="nav-item dropdown px-lg-1">
+            <a class="nav-link dropdown-toggle fs-5" href="#" id="contactDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Kapcsolat
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./kapcsolat.html">Kapcsolat</a></li>
+              <li><a class="dropdown-item" href="./rolunk.html">Rólunk</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
       <a class="btn btn-success darkgreen" href="tel:+36208016804" id="topbutton">
@@ -120,7 +137,7 @@
                 <h5>Lovasoktatás</h5>
                 <p>Futószárazástól kezdve a tereplovaglásig mindenre van lehetőség. Lelkes érdeklődőket és haladó
                   lovasokat is várunk, profi oktatókkal, gyerekbarát lovakkal.</p>
-                <a class="btn btn-primary mt-auto w-50" href=".html">Bővebben</a>
+                <a class="btn btn-primary mt-auto col-md-6 col-lg-12 col-xl-6" href=".html">Bővebben</a>
               </div>
             </div>
           </div>
@@ -133,7 +150,7 @@
                 <h5>Bértartás</h5>
                 <p>Sok szeretettel és nagy gondoskodással, várjuk a lovaikat. All inclusive
                   ellátás, választható extrák, igény szerint non-stop élő online felügyelet. </p>
-                <a class="btn btn-primary mt-auto w-50" href="./bertartas.html">Bővebben</a>
+                <a class="btn btn-primary mt-auto  col-md-6 col-lg-12 col-xl-6" href="./bertartas.html">Bővebben</a>
               </div>
             </div>
           </div>
@@ -146,7 +163,8 @@
                 <h5>Versenyeztetés</h5>
                 <p>Az Ön lovát úgy kezeljük, mint a sajátunkat, és kihozzuk belőle a maximumot. Személyre szabott
                   edzésterv, rendszeres konzultáció, tervszerű fejlődés. </p>
-                <a class="btn btn-primary mt-auto w-50" href="./versenyeztetes.html">Bővebben</a>
+                <a class="btn btn-primary mt-auto  col-md-6 col-lg-12 col-xl-6"
+                  href="./versenyeztetes.html">Bővebben</a>
               </div>
             </div>
           </div>
@@ -208,7 +226,7 @@
     </section>
 
     <!-- Galéria/képkollázs -->
-    <!--     <section class="mt-5">
+    <section class="mt-5">
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"

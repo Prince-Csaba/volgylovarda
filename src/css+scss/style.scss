@@ -1,7 +1,6 @@
 @import 'colors';
 @import 'fonts';
 
-
 body {
   color: $primary;
   font-family: $mainfont;
@@ -20,9 +19,29 @@ h6 {
   color: $gold !important;
 }
 
+.warmbutton {
+  background-color: $warm;
+  border-color: $warm;
+  color: black;
+
+  &:hover {
+    background-color: $peach;
+    border-color: $peach;
+    color: black;
+  }
+}
+
+.bg-blue {
+  background-color: $lightblue !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
 .navbar-nav .nav-item .nav-link {
   &:hover {
-    background-color: #faebd7;
+    background-color: $peach;
   }
 }
 
@@ -32,12 +51,12 @@ h6 {
 }
 
 .jumbotron {
-  background-color: grey;
+  background-color: $lightblue;
   border-radius: 5px;
 }
 
 .flex-shrink-0 i.fas {
-  color: $gold;
+  color: $lemon;
 }
 
 .parallax-top {
@@ -159,7 +178,7 @@ $black: black;
   }
 
   .copyright {
-    color: darken(#ccc, 20%);
+    color: darken(#ccc, 80%);
   }
 }
 

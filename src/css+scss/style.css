@@ -15,46 +15,26 @@ h6 {
 }
 
 .gold {
-  color: #4a3715 !important;
-}
-
-.warmbutton {
-  background-color: #DF744A;
-  border-color: #DF744A;
-  color: black;
-}
-
-.warmbutton:hover {
-  background-color: #FEDCD2;
-  border-color: #FEDCD2;
-  color: black;
-}
-
-.bg-blue {
-  background-color: #B6D0E2 !important;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: black;
+  color: #8a6c35 !important;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  background-color: #FEDCD2;
+  background-color: #faebd7;
 }
 
 .carousel-item img {
   height: 80vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .jumbotron {
-  background-color: #B6D0E2;
+  background-color: grey;
   border-radius: 5px;
 }
 
 .flex-shrink-0 i.fas {
-  color: #DCB239;
+  color: #8a6c35;
 }
 
 .parallax-top {
@@ -77,12 +57,12 @@ img.aboutUs {
   height: auto;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 img.card-img-top.img_team {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -98,7 +78,7 @@ img.card-img-top.img_team {
 }
 
 .footer .footer-site-logo a {
-  color: #4a3715;
+  color: #8a6c35;
   text-decoration: none;
 }
 
@@ -158,7 +138,7 @@ img.card-img-top.img_team {
 }
 
 .footer .copyright {
-  color: black;
+  color: #999999;
 }
 
 .bg-overlay {
@@ -188,4 +168,5 @@ img.card-img-top.img_team {
     max-width: 1720px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */

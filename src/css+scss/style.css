@@ -18,6 +18,10 @@ h6 {
   color: #4a3715 !important;
 }
 
+.lemon {
+  color: #DCB239;
+}
+
 .warmbutton {
   background-color: #DF744A;
   border-color: #DF744A;
@@ -32,6 +36,10 @@ h6 {
 
 .bg-blue {
   background-color: #B6D0E2 !important;
+}
+
+.bg-warm {
+  background-color: #DF744A !important;
 }
 
 .bg-lemon {

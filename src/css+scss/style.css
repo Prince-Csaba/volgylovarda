@@ -38,6 +38,10 @@ h6 {
   background-color: #B6D0E2 !important;
 }
 
+.bg-peach {
+  background-color: #FEDCD2 !important;
+}
+
 .bg-warm {
   background-color: #DF744A !important;
 }
@@ -184,20 +188,7 @@ img.card-img-top.img_team {
 }
 
 .call-to-action {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("./img/viking.jpg.webp");
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/viking.jpg.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-  background-attachment: fixed;
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-@media (min-width: 1720px) {
-  .call-to-action {
-    max-width: 1720px;
-  }
 }
 /*# sourceMappingURL=style.css.map */

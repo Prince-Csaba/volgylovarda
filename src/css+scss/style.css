@@ -196,4 +196,11 @@ img.card-img-top.img_team {
   background-color: #B6D0E2;
   padding: 80px 0;
 }
+
+.myimg.img-thumbnail {
+  height: 216px;
+  width: 216px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */

@@ -217,3 +217,9 @@ $black: black;
   background-color: $lightblue;
   padding: 80px 0;
 }
+
+.myimg.img-thumbnail {
+  height: 216px;
+  width: 216px;
+  object-fit: cover;
+}

@@ -1,0 +1,7 @@
+.myimg.img-thumbnail {
+  height: 261px;
+  width: 261px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=bertartas.css.map */

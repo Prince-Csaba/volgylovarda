@@ -197,10 +197,8 @@ img.card-img-top.img_team {
   padding: 80px 0;
 }
 
-.myimg.img-thumbnail {
-  height: 216px;
-  width: 216px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.img_team {
+  height: 250px;
+  width: 250px;
 }
 /*# sourceMappingURL=style.css.map */
